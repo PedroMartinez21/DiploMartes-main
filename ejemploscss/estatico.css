@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+#contenedor {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Cada div con su color */
+#verde {
+    position: static; /* antes estaba mal escrito */
+    background-color: green; /* "static" no va acá */
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black; /* se escribe todo en una línea */
+    width: 94%;
+}
+
+
+#celeste {
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#amarillo {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Texto explicativo */
+p {
+    font-size: 18px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}

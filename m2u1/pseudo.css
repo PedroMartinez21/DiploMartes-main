@@ -1,0 +1,33 @@
+/* Cuando pasamos el mouse sobre el div */
+div:hover {
+    background-color: #F89B4D;
+}
+
+/* Span base (la palabra del ejemplo) */
+span {
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Pseudoelemento ::after (agrega texto después) */
+span::after {
+    content: ' despues';
+    background-color: red;
+    color: white;
+}
+
+/* Pseudoelemento ::before (agrega texto antes) */
+span::before {
+    content: 'antes ';
+    background-color: blue;
+    color: white;
+}
+div {
+    background-color: yellow; /* Color del fondo */
+    width: 200px;             /* Ancho del cuadrado */
+    height: 200px;            /* Alto del cuadrado */
+    border: 1px solid black;  /* Borde negro alrededor */
+    padding: 10px;            /* Espacio interno */
+    margin-bottom: 20px;      /* Espacio debajo del cuadro */
+}
